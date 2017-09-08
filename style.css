@@ -84,6 +84,52 @@ body {
 	margin-bottom: 45px;
 	font-weight: lighter;
 }
+/*client*/
+.client-background {
+	background-image: url(images/clients_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.our-clients {
+	text-align: center;
+	list-style-type: none;
+	padding-left: 0;
+}
+.clients {
+	padding: 83px 0;
+	overflow: hidden;
+}
+.clients h2 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	margin: 0;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.clients hr {
+	width: 32%;
+	margin-bottom: 60px;
+}
+.box {
+	margin-top: 20px;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.inner {
+	background: #1F2F3D;
+	background: rgba(31, 47, 61, .97);
+}
+.inner img {
+	margin: 0 auto;
+}
+.inner:hover {
+	background-color: #e5181d;
+}
+/*end of client*/
 
 /*==MOBILES==*/
 
@@ -132,5 +178,18 @@ body {
 		margin-bottom: 20px;
 		font-size: 16px !important;
 	}
+	.clients {
+		padding: 40px 0;
+	}
+	.clients h2 {
+		font-size: 24px;
+	}
+	.clients hr {
+		margin-bottom: 30px;
+	}
+	.inner {
+		margin-left: 15px;
+	}
+
 
 }
