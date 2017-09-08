@@ -84,6 +84,7 @@ body {
 	margin-bottom: 45px;
 	font-weight: lighter;
 }
+
 /*client*/
 .client-background {
 	background-image: url(images/clients_bg.jpg);
@@ -130,6 +131,84 @@ body {
 	background-color: #e5181d;
 }
 /*end of client*/
+
+.contact-left {
+	padding-left: 0;
+}
+.contact hr {
+	background-color: #1e2f3e;
+	height: 1px;
+	margin-bottom: 50px;
+	margin-left: 0;
+}
+.contact h2 {
+	font-size: 39px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 6px;
+	margin-top: 94px;
+}
+.contact p {
+	font-size: 20px;
+	margin-bottom: 44px;
+	line-height: 32px;
+}
+.contact ul {
+	list-style-type: none;
+	padding: 0;
+}
+.contact ul li {
+	margin-bottom: 18px;
+	font-size: 18px;
+}
+.contact-form {
+	margin-top: 115px;
+	padding-right: 0;
+}
+.email, .name {
+	width: 100%;
+	padding: 17px 0;
+	background-color: #f2f3f3;
+	border: none;
+	border-bottom: 2px solid #c9d7e3;
+	padding-left: 10px;
+}
+.email {
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+.message {
+	height: 128px;
+	width: 100%;
+	background-color: #f2f3f3;
+	border: none;
+	border-bottom: 2px solid #c9d7e3;
+	margin-top: 15px;
+	padding-left: 10px;
+}
+.submit {
+	background-color: #286191;
+	width: 100%;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	padding: 20px 0;
+}
+
+/*===TABLETS==*/
+
+@media only screen and (max-width: 992px) {
+	.contact h2 {
+		margin-top: 55px;
+	}
+	.contact-left {
+		padding-left: 15px !important;
+	}
+	.contact-form {
+		margin-top: 55px;
+	}
+}
 
 /*==MOBILES==*/
 
@@ -189,6 +268,28 @@ body {
 	}
 	.inner {
 		margin-left: 15px;
+	}
+	.contact h2 {
+		font-size: 24px;
+		text-align: center;
+		margin-top: 50px;
+	}
+	.contact-left {
+		padding-left: 15px !important;
+	}
+	.contact hr {
+		margin-left: auto;
+		margin-bottom: 30px;
+	}
+	.contact p {
+		font-size: 16px !important;
+	}
+	.contact ul li {
+		font-size: 16px;
+	}
+	.contact-form {
+		margin-top: 55px;
+		padding-right: 15px;
 	}
 
 
