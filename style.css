@@ -221,6 +221,24 @@ footer .terms a {
 	text-decoration: none;
 }
 
+/*==form.html page==*/
+
+header {
+	height: 80px;
+	width: 100%;
+	background-color: #0d171f;
+	text-align: center;
+}
+header img {
+	margin-top: 10px;
+}
+.confirmation p {
+	margin-top: 20px;
+	font-size: 20px;
+	padding: 0 15px;
+}
+
+
 
 /*===TABLETS==*/
 
